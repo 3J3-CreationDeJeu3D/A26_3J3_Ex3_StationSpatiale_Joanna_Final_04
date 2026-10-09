@@ -96,7 +96,7 @@ public class ControlesJoueur : MonoBehaviour
         // Quand le personnage est libre, il peut se déplacer et sauter. 
         // Si le personnage est dans un autre état, il ne peut pas se déplacer ni sauter, 
         // mais peut effectuer d'autres actions comme attaquer ou interagir.
-
+    
 
         //Placer ici les autres actions autorisées en état LIBRE, comme l'attaque et l'interaction.
 

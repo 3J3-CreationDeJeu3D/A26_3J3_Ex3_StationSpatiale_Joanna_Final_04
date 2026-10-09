@@ -30,15 +30,24 @@ public class DeplacementJoueur : MonoBehaviour
     }
 
     // ========================================
-    // public Vector3 CalculerDeplacement(Vector2 controleJoueur)
-    // {
+    public Vector3 CalculerDeplacement(Vector2 controleJoueur)
+    {
+        deplacementAvant = transform.forward * controleJoueur.y * vitesseDeplacement * Time.deltaTime;
+        return deplacementAvant;
+    }
 
-    // }
-
-    // public Vector3 CalculerGravite()
-    // {
-
-    // }
+    public Vector3 CalculerGravite()
+    {
+if(characterController.isGrounded && deplacementVertical.y < 0)
+        {
+            deplacementVertical.y = -2f; 
+        }
+        else
+        {
+            deplacementVertical.y += gravite * Time.deltaTime; 
+        }
+        return deplacementVertical;
+     }
 
     // public Vector3 CalculerForceSpeciale()
     // {
@@ -48,10 +57,12 @@ public class DeplacementJoueur : MonoBehaviour
 
     public void MettreAJourRotation(float directionX)
     {
+        transform.Rotate(Vector3.up * directionX * vitesseRotation * Time.deltaTime);
     }
 
     public void MettreAJourDeplacement(Vector3 direction)
     {
+characterController.Move(direction * Time.deltaTime);
     }
 
     // ========================================

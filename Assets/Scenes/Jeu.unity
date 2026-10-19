@@ -10675,6 +10675,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Oxygene
       objectReference: {fileID: 0}
+    - target: {fileID: 6351320889992280552, guid: 9b8eb3977e316df4a844588b024c4e67, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12042,6 +12046,10 @@ PrefabInstance:
     - target: {fileID: 7180474826093858418, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
       propertyPath: m_Name
       value: Oxygene
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288033380654506633, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13544,6 +13552,10 @@ PrefabInstance:
     - target: {fileID: 7180474826093858418, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
       propertyPath: m_Name
       value: Oxygene
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288033380654506633, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

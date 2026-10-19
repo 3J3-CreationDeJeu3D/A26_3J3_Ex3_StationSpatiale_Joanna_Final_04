@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-
+using UnityEngine.SceneManagement;
 
 // Tous les états possibles du personnage, qui déterminent quelles actions sont autorisées à un moment donné.
 public enum EtatPerso
@@ -138,5 +138,21 @@ public class ControlesJoueur : MonoBehaviour
     {
         etatPerso = EtatPerso.FINJEU;
     }
+    void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.gameObject.tag == "danger")
+        {
+            santeJoueur.RecevoirDegats(1);
+        }
+        if (hit.gameObject.tag == "oxygène")
+        {
+            santeJoueur.Soigner(20);
+            Destroy(hit.gameObject);
+        }
 
+    }
+    public void RedemarrerPartie()
+    {
+        SceneManager.LoadScene("jeu");
+    }
 }

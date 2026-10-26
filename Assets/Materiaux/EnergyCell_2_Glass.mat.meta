@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: a41d0ac3f9837564c8461646f08e05f0
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166830
-  packageName: Energy Cells Free
-  packageVersion: 1.0
-  assetPath: Assets/Energy/Type 2/EnergyCell_2/Materials/EnergyCell_2_Glass.mat
-  uploadId: 363047
+version https://git-lfs.github.com/spec/v1
+oid sha256:816de44192aaa7ad1a3f76d932ca8bd06cb78941aba3f7004fc78283f3e480a2
+size 398

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 305be5e0fdd8efe4ba012079676d5c7c
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166830
-  packageName: Energy Cells Free
-  packageVersion: 1.0
-  assetPath: Assets/Energy/Type 1/EnergyCell_1/Prefabs/EnergyCell_1_1.prefab
-  uploadId: 363047
+version https://git-lfs.github.com/spec/v1
+oid sha256:adf9c761ebd824f6f1255841039293f9b0439c478f5106fe4d437745604252d9
+size 361

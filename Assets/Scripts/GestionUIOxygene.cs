@@ -1,33 +1,3 @@
-using UnityEngine;
-using UnityEngine.UI;
-public class GestionUIOxygene : MonoBehaviour
-{
-    [SerializeField] SanteJoueur sante;
-    [SerializeField] Slider slider1;
-    [SerializeField] Slider slider2;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        if (sante == null)
-        {
-            Debug.LogError("Le script Sante n'est pas assigné dans le personnage.");
-            return;
-        }
-
-        slider1.maxValue = sante.niveauOxygeneMax;
-        slider2.maxValue = sante.niveauOxygeneMax;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (sante == null)
-        {
-            return;
-        }
-
-        slider1.value = sante.niveauOxygene;
-        slider2.value = sante.niveauOxygene;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9ee09b567712571f7fba5f1fee7c7e7769a6e8fce0cd5451e6e3c1821707ea0
+size 852
